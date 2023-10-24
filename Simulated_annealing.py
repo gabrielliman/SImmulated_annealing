@@ -1,7 +1,6 @@
 from numba import jit
 import numpy as np
 import time
-import math
 
 #define a distancia entre duas cidades quaisquer
 @jit(nopython=True)
