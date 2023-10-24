@@ -99,7 +99,7 @@ def main():
     x=[]
     y=[]
     #leio arquivo
-    with open("entrada.txt", 'r') as arquivo:
+    with open("posicoes.dat", 'r') as arquivo:
         linhas = arquivo.readlines()
     for linha in linhas:
         num1,num2=map(float,linha.split())
